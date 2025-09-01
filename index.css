@@ -1,88 +1,106 @@
-* { box-sizing: border-box; }
-
-body{
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
 }
-.wrapper{
-    width: 1200px;
-    margin: 0 auto;
-    
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.background {
+  background-image: url("Topservice.png");
+  height: 724px;
+  width: 100%;
+  filter: brightness(50%);
+  margin: 0;
+  z-index: -1;
+  position: absolute;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
 }
 .sitemenu {
-    background-image: url("Topservice.png");
-    height: 724px;
-    width: 100%;    
-    display: flex;
-    flex-direction: column;
+  position: relative;
 }
-nav{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+
+.sitemenu h1 {
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 130px;
+  z-index: 3;
+  color: white;
+  font-size: 75px;
+}
+.sitemenu h2 {
+  position: absolute;
+  margin-top: 257px;
+  margin-left: 130px;
+  color: #FFE100;
+  font-size: 60px;
+  z-index: 4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 nav a {
-	
-	color: white;
-	text-decoration: none;
-	font: 18px 'Roboto';
+  color: white;
+  text-decoration: none;
+  font: 18px "Roboto";
 }
-.menu-left{
-    margin-left: 132px;
-    margin-top: 16px;
-    
+.menu-left {
+  margin-left: 132px;
+  margin-top: 16px;
 }
-.menu-left a{
-margin-right: 35px;
-height: 17px;
+.menu-left a {
+  margin-right: 35px;
+  height: 17px;
 }
 
-.menu-right{
-    border: 1px;
-    width: 205px;
-    margin-top: 16px;
-    margin-right: 3px;
+.menu-right {
+  border: 1px;
+  width: 205px;
+  margin-top: 16px;
+  margin-right: 3px;
 }
 
-.send{
-    
-    background-color: rgba(199, 201, 202, 0.8);
-    width: 340px;
-    height: 353px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.send {
+  background-color: rgba(199, 201, 202, 0.8);
+  width: 340px;
+  height: 353px;
+  display: flex;
+  flex-direction: column;
+  margin: 140px 53px 193px 807px;
+  position: absolute;
 }
-.send h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 31px;
-    margin-left: 32px;
+.send h3 {
+  margin: 31px 151px 305px 32px;
+  position: absolute;
+  font-size: 18px;
 }
-.send p{
-    font-size: 14px;
+.send p {
+  margin: 63px 42px 31px 31px;
+  font: 14px "Roboto";
 }
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-    margin-left: 32px;
-    margin-right: 34px;
-    margin-bottom: 32px;
-    margin-top: 31px;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-left: 32px;
+  margin-right: 34px;
+  margin-bottom: 32px;
 }
 input[type="submit"] {
   border: none;
   width: 274px;
   height: 47px;
-  background-color: #FFE100;
-  
-  
+  background-color: #ffe100;
+  font-weight: bold;
 }
 input[type="text"] {
-    width: 274px;
-    height: 47px;
-    border: none;
+  width: 274px;
+  height: 47px;
+  border: none;
 }
