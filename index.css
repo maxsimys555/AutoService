@@ -1,0 +1,88 @@
+* { box-sizing: border-box; }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.sitemenu {
+    background-image: url("Topservice.png");
+    height: 724px;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+nav a {
+	
+	color: white;
+	text-decoration: none;
+	font: 18px 'Roboto';
+}
+.menu-left{
+    margin-left: 132px;
+    margin-top: 16px;
+    
+}
+.menu-left a{
+margin-right: 35px;
+height: 17px;
+}
+
+.menu-right{
+    border: 1px;
+    width: 205px;
+    margin-top: 16px;
+    margin-right: 3px;
+}
+
+.send{
+    
+    background-color: rgba(199, 201, 202, 0.8);
+    width: 340px;
+    height: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.send h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    margin-left: 32px;
+}
+.send p{
+    font-size: 14px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-left: 32px;
+    margin-right: 34px;
+    margin-bottom: 32px;
+    margin-top: 31px;
+}
+input[type="submit"] {
+  border: none;
+  width: 274px;
+  height: 47px;
+  background-color: #FFE100;
+  
+  
+}
+input[type="text"] {
+    width: 274px;
+    height: 47px;
+    border: none;
+}
