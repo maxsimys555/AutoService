@@ -239,6 +239,7 @@ input[type="text"] {
   padding: 0;
   background-color: white;
   border-radius: 3px;
+  cursor: pointer;
 }
 .Request {
   display: flex;
@@ -410,4 +411,83 @@ input[type="text"] {
 .service-table th:not(:first-child),
 .service-table td:not(:first-child) {
   text-align: center;
+}
+.documents {
+  text-align: center;
+  margin-top: 99px;
+}
+.documents h1 {
+  font-size: 37px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.documents p {
+  font-size: 21px;
+  margin-top: 39px;
+  margin-bottom: 0;
+}
+.documents button {
+  width: 253px;
+  height: 66px;
+  margin-top: 39px;
+  border: 3px solid #000;
+  cursor: pointer;
+  background: transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.info {
+  height: 501px;
+  width: 100%;
+  background-color: #000000;
+  margin-top: 207px;
+  display: flex;
+}
+.map img {
+  width: 719px;
+  height: 501px;
+}
+.Contacts {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 140px 0 206px 22px;
+  gap: 10px;
+}
+.Contacts h3 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  height: 197px;
+  background-color: #171717;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* выравниваешь контент по вертикали */
+  justify-content: center;
+}
+.footer-inner {
+  display: flex;
+
+  gap: 55px;
+  text-align: center;
+}
+.footer-inner a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 77px;
+  margin-bottom: 0;
+}
+.footer-email {
+  margin-top: 39px;
+  margin-bottom: 49px;
+  color: white;
+}
+
+.footer-inner a:hover {
+  text-decoration: underline;
 }
